@@ -1,0 +1,8 @@
+<Project>
+  <PropertyGroup>
+    <Authors>Simusharp</Authors>
+    <RepositoryUrl>https://github.com/Simusharp/FomGen.core</RepositoryUrl>
+    <PackageProjectUrl>https://github.com/Simusharp/FomGen.core</PackageProjectUrl>
+    <PackageLicense></PackageLicense>
+  </PropertyGroup>
+</Project>

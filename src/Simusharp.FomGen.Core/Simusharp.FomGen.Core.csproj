@@ -1,0 +1,23 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net5.0</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <None Remove="_FOMs\HLAstandardMIM.xml" />
+    <None Remove="_FOMs\IEEE1516-FDD-2010.xsd" />
+    <None Remove="_FOMs\IEEE1516-OMT-2010.xsd" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <EmbeddedResource Include="_FOMs\HLAstandardMIM.xml" />
+    <EmbeddedResource Include="_FOMs\IEEE1516-FDD-2010.xsd" />
+    <EmbeddedResource Include="_FOMs\IEEE1516-OMT-2010.xsd" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <PackageReference Include="FluentValidation" Version="9.3.0" />
+  </ItemGroup>
+
+</Project>
